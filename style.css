@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    color: white;
+    width: 100%;
+    padding: 10% 12%; /* This adds space inside the container without shifting the layout */
+    background: linear-gradient(rgb(136, 25, 25), rgb(3, 3, 83));
+}
+h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 30px;
+    color: rgb(190, 231, 190);
+    font-weight: 700;
+    border-bottom: 3px dashed rgb(190, 231, 190);;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width:60%;
+}
+.input input{
+    flex: 1;
+    outline: none;
+   background: transparent;
+    border: white;
+    font-size: 15px;
+}
+.input img{
+    background-color: white;
+    color: white;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+button{
+    display: flex;
+    background-color: green;
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    font-size: 25px;
+   cursor: pointer;
+    border: green;
+}
+button img{
+    width: 30px;
+    height: 30px;
+}
